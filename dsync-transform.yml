@@ -1,0 +1,8 @@
+defaultmapping: default
+mappings:
+  - namespace: default
+    delete: ["ID"]
+    add: ["_id"]
+    mapid: "string(id)"
+    cel:
+      _id: string(parent.ID)
